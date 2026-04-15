@@ -1,4 +1,4 @@
-# =============================
+# =============================G
 # ppo.py (single-file runnable)
 # =============================
 import os
@@ -210,10 +210,6 @@ def main():
     model = train_ppo(train_prices,args)
 
 # Evaluate
-    values = evaluate(model, test_prices, args)
-
-
-    model = train_ppo(train_prices, args)
     values = evaluate(model, test_prices, args)
 
     final_value = values[-1]

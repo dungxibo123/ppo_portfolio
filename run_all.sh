@@ -39,7 +39,7 @@ do
 
       python $MODEL \
         --tickers $TICKERS \
-        --total_timesteps 1000000 \
+        --total_timesteps 200000 \
         --learning_rate 3e-4 \
         --gamma 0.99 \
         --gae_lambda 0.95 \
